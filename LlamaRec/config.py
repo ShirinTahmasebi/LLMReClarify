@@ -3,7 +3,7 @@ import random
 import torch
 import argparse
 
-ROOT_PATH = '/cephyr/users/shirinta/Alvis/Projects/LlamaRec'
+ROOT_PATH = 'PATH_TO_PROJECT/LlamaRec'
 RAW_DATASET_ROOT_FOLDER = f'{ROOT_PATH}/data'
 EXPERIMENT_ROOT = f'{ROOT_PATH}/experiments'
 STATE_DICT_KEY = 'model_state_dict'
@@ -11,7 +11,8 @@ OPTIMIZER_STATE_DICT_KEY = 'optimizer_state_dict'
 PROJECT_NAME = 'llmrec'
 
 import os
-os.environ['HUGGINGFACE_TOKEN'] = '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'
+## TODO: Add the correct HF token
+os.environ['HUGGINGFACE_TOKEN'] = 'HF_TOKEN'
 
 def set_template(args):
     if args.dataset_code == None:
