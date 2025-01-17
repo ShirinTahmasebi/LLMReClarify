@@ -22,7 +22,8 @@ from peft import (  # noqa: E402
 )
 from transformers import LlamaForCausalLM, LlamaTokenizer  # noqa: F402
 
-access_token="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"
+# TODO: Add correct HF token
+access_token="HF TOken"
 from huggingface_hub import login
 login(token=access_token)
 
