@@ -12,6 +12,8 @@
 /wandb
 /results
 
+/LlamaRec/experiments/
+
 # Numerous always-ignore extensions
 *.diff
 *.orig
