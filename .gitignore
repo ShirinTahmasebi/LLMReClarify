@@ -9,8 +9,8 @@
 /log_tensorboard
 /data
 /checkpoints
-/wandb
-/results
+*/wandb
+*/results
 
 /LlamaRec/experiments/
 

@@ -1,0 +1,21 @@
+lightning
+yacs
+openai
+tiktoken
+transformers==4.34.1
+bitsandbytes
+datasets
+accelerate
+peft
+trl
+sentencepiece
+setuptools==58.1.0
+huggingface-hub==0.24.0
+##
+## General
+pandas
+python-dotenv
+wandb
+tensorboard
+numpy==1.23.4
+# numpy-base==1.24.3

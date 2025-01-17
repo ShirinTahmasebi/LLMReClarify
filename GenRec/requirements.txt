@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1+cu118
+transformers==4.34.1
+accelerate
+appdirs
+bitsandbytes
+black
+black[jupyter]
+datasets
+fire
+git+https://github.com/huggingface/peft.git
+gradio
+sentencepiece
+
